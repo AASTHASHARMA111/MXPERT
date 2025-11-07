@@ -4,7 +4,7 @@ import { getAuth } from "https://www.gstatic.com/firebasejs/11.5.0/firebase-auth
 
 // Your Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyDeypsz6MylUOKfNHwiegFzD9zd9ei3BYo",
+  apiKey: "enter your api key",
   authDomain: "mxpert-865b7.firebaseapp.com",
   projectId: "mxpert-865b7",
   storageBucket: "mxpert-865b7.appspot.com",
@@ -19,3 +19,4 @@ const auth = getAuth(app); // Initialize Firebase Authentication
 
 // Export the auth object for use in other files
 export { auth };
+
